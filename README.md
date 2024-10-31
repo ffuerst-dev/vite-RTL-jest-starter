@@ -1,14 +1,14 @@
 # React + Vite with Jest Testing
 
 ### Vite with Jest requires these additional dependencies:
-- jest: testing framework
-- @testing-library/react: provides utilities for testing React components with simulated user interaction
-- @testing-library/jest-dom: provides custom matchers for Jest that allows testing DOM node states
-- @babel/preset-env: Babel preset that compiles "fancy" modern JS down to "standard JS" (in order to be compatible with older browsers)
-- @babel/preset-react: Babel preset specifically for compiling React-specific code, such as JSX
-- babel-jest: Jest transformer that uses Babel to compile JS (this allows Jest to 'understand' JSX and ESM syntax)
-- jest-environment-jsdom: Jest environment that simulates a browser-like environment using jsdom, allowing the DOM to be tested in a Node environment (i.e. without a browser)
-- identity-obj-proxy: a proxy for CSS modules that allows Jest to mock CSS imports as plain objects, making it easier to test components without loading styles (this prevents errors - you can turn it off in `jest.config.cjs` if you're curious what these errors look like)
+- **jest**: testing framework
+- **@testing-library/react**: provides utilities for testing React components with simulated user interaction
+- **@testing-library/jest-dom**: provides custom matchers for Jest that allows testing DOM node states
+- **@babel/preset-env**: Babel preset that compiles "fancy" modern JS down to "standard JS" (in order to be compatible with older browsers)
+- **@babel/preset-react**: Babel preset specifically for compiling React-specific code, such as JSX
+- **babel-jest**: Jest transformer that uses Babel to compile JS (this allows Jest to 'understand' JSX and ESM syntax)
+- **jest-environment-jsdom**: Jest environment that simulates a browser-like environment using jsdom, allowing the DOM to be tested in a Node environment (i.e. without a browser)
+- **identity-obj-proxy**: a proxy for CSS modules that allows Jest to mock CSS imports as plain objects, making it easier to test components without loading styles (this prevents errors - you can turn it off in `jest.config.cjs` if you're curious what these errors look like)
 
 # Steps to Recreate this Repo
 
