@@ -58,4 +58,4 @@ import "@testing-library/jest-dom/";
 14. Create `tests` directory (if desired)
 15. Create your first test (follow traditional Jest naming specifications)
 
-> Note that the basic Vite React app has been altered slightly (some elements changed in `App.jsx`) to allow the tests shown in `App.test.js` to be more specific
+**Note that the basic Vite React app has been altered slightly (some elements changed/rearranged in `App.jsx`) to allow the tests shown in `App.test.js` to be more specific**
