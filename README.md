@@ -60,17 +60,18 @@ module.exports = {
 10. Setup Jest config:
 ```js
 //jest.config.cjs
-{
+module.exports = {
   testEnvironment: "jsdom",
   transform: {
     "^.+\\.jsx?$": "babel-jest",
   },
   moduleNameMapper: {
-    "\\.(css|less|sass|scss)$": "identity-obj-proxy",
+    "\\.(css|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy",
     "\\.svg$": "<rootDir>/__mocks__/svgTransform.js",
   },
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
 };
+
 ```
 > Note: this tells jest how to transform certain sorts of code and modules, as well as what to do after the testing environment is setup (in this case, run the jest setup file that we're about to create)
 11. Create Jest setup file in project root: 
